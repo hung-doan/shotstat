@@ -69,7 +69,7 @@ function formatShutter(value: number | null): string {
   return `${value.toFixed(4)}s`;
 }
 
-const MAX_ERROR_SAMPLES = 10;
+export const MAX_ERROR_SAMPLES = 10;
 const UNKNOWN_CAMERA = "Unknown Camera";
 const MAX_CAMERA_GROUPS_IN_TABLE = 10;
 
